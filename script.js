@@ -3,7 +3,6 @@ var numero2 = 0;
 
 function incrementarPontos(time) {
 	const pontosElement = document.getElementById(time);
-	console.log(pontosElement);
 	if (time == "Time1") {
 		pontosElement.innerText = ++numero1;
 	} else {
